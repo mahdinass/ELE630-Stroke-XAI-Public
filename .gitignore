@@ -1,0 +1,93 @@
+# Research data and audit outputs
+/audit/
+outputs/
+data/
+datasets/
+raw_data/
+patient_data/
+
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Machine learning artifacts
+checkpoints/
+models/
+runs/
+wandb/
+lightning_logs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+
+# Medical imaging and patient-level data
+*.nii
+*.nii.gz
+*.dcm
+*.nrrd
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+
+# Additional private medical-image/array formats
+*.mha
+*.mhd
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.zarr/
+*.tif
+*.tiff
+
+# HPC scheduler artifacts
+slurm-*.out
+slurm-*.err
+*.err
+
+# Medical images and generated figures
+*.png
+*.jpg
+*.jpeg
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Temporary files
+*.tmp
+*.log
+.DS_Store
+
+# Private workflow manifests and QA records (exact generated filenames)
+# Ignore rules are not a substitute for inspecting staged content.
+frozen.json
+seal.json
+final_claim.json
+private_qa.json
+shareable_summary.json
+manifest.json
+
+# Additional private data, runtime files, and local environments
+.venv_cpu/
+.ssh/
+*.dicom
+*.out
+*.lock
+aggregate_final.json
