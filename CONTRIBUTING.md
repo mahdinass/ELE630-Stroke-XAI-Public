@@ -11,5 +11,6 @@ Git history before release. Use aggregate results and project-authored synthetic
 fixtures for examples.
 
 The existing research archive records the executed methodology and artifacts.
-Report code changes against the precise revision tested. Contact the authors
-about reuse or redistribution of this code.
+Report code changes against the precise revision tested. The [MIT License](LICENSE)
+covers the released code. Access to clinical data, patient-level outputs,
+trained checkpoints and private research records is governed separately.

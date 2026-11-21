@@ -2,7 +2,7 @@
 
 Research code for predicting 90-day functional outcome after ischemic stroke from admission CT imaging and clinical information, with an emphasis on **evaluating what the models actually use**.
 
-> **Research-only project.** This code accompanies an exploratory university study. The hospital dataset, patient-level results and trained weights have restricted access. Use the code for research inspection and synthetic examples.
+> This repository accompanies an exploratory university study with a single internal held-out evaluation. The study provides no evidence of external validation or clinical deployment readiness.
 
 **University of Stavanger (UiS) · ELE630 Research Project · Autumn 2026**
 **Researchers:** Mahdi Nasser and Bashar S. F. Albittar
@@ -143,8 +143,13 @@ research archive and its original source, input, environment and artifact
 bindings. The environment specified above supports the repository’s synthetic
 example and tests.
 
-## Contributing and code use
+## Code availability and license
 
-See [contribution and data handling](CONTRIBUTING.md). The repository includes
-project-authored code and aggregate figures. Contact the authors about code
-reuse and redistribution terms.
+The public snapshot includes the project-authored implementation, aggregate
+figures and synthetic tests. The clinical dataset, patient-level outputs,
+trained checkpoints and original private research history are not publicly
+available. Their access is governed separately from the code license.
+
+The project code is available under the [MIT License](LICENSE). Independently
+installed third-party dependencies retain their own licenses. See the
+[contribution and data handling guide](CONTRIBUTING.md) for repository practices.
